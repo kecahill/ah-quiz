@@ -99,13 +99,13 @@ function categoryFunction() {
 
   console.log("This is the largest: " + largest);
   console.log("This is the largest Index: " + largestIndexCategory);
-  
+
   n = largestIndexCategory;
 
   var resultsTitle = $('#results h1'),
     resultsDesc = $('#results .desc');
   resultsTitle.replaceWith("<h1>" + resultOptions[n].title + "</h1>");
-  resultsDesc.replaceWith("<p class='desc'>" + resultOptions[n].desc + "</p>");
+  resultsDesc.replaceWith("<p>" + resultOptions[n].desc + "</p>");
 
   console.log("This is n: " + n);
 }
