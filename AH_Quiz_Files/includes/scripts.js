@@ -7,13 +7,13 @@ var resultOptions = [{
   desc: '<p>Result 2</p><img src="http://i.imgur.com/dipkE0v.jpg"/>'
 }, {
   title: 'Result 3',
-  desc: '<p>Result 3</p><img src="http://i.imgur.com/WXox0Yv.jpg"/>'
+  desc: '<p>Result 2</p><img src="http://i.imgur.com/WXox0Yv.jpg"/>'
 }, {
   title: 'Result 4',
-  desc: '<p>Result 4</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>Result 2</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Result 5',
-  desc: '<p>Result 5</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>Result 2</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }];
 
 var catA = 0;
@@ -71,22 +71,36 @@ function categoryFunction() {
   var categories = [catA, catB];
   console.log(categories);
 
-  function getMaxOfArray(categories) {
-    return Math.max.apply(null, categories);
-  }
-  console.log("The highest number is: " + getMaxOfArray(categories));
+  // function getMaxOfArray(categories) {
+  //   return Math.max.apply(null, categories);
+  // }
+  // console.log("The highest number is: " + getMaxOfArray(categories));
 
+  //   var largest = categories[0];
+  //   var i;
+  //   for (i = 0; i < categories.length; i++) {
+  //     if (categories[i] > largest)
+  //       largest = categories[i];
+  //   }
+
+  //   var n = 0;
+  //   n = largest;
+  //   console.log("This is the largest: " + n);
+  var n = 0;
   var largest = categories[0];
+  var largestIndexCategory = 0;
 
-//   var i;
-//   for (i = 0; i < 5; i++) {
-//     if (categories[i] > largest)
-//       largest = categories[i];
-//   }
+  for (i = 0; i < categories.length; i++) {
+    if (categories[i] > largest) {
+      largest = categories[i];
+      largestIndexCategory = i;
+    }
+  }
 
-//   return largest;
-
-  n = getMaxOfArray(categories);
+  console.log("This is the largest: " + largest);
+  console.log("This is the largest Index: " + largestIndexCategory);
+  
+  n = largestIndexCategory;
 
   var resultsTitle = $('#results h1'),
     resultsDesc = $('#results .desc');
