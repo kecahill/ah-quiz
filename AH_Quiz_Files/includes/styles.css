@@ -10,9 +10,11 @@ li {
 
 button {
   font-weight: bold;
+  width:200px;
+  height:75px;
   margin: 10px 0px 10px 20px;
-  padding: 8px 14px 8px 14px;
+  padding: 10px 20px;
   border-radius: 5px;
-  background-color: #15D354;
-  border-color: #4DD655;
+  background-color: lightblue;
+  border-color: lightblue;
 }

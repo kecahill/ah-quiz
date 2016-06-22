@@ -140,19 +140,11 @@ document.getElementById('buttonQ5A2').onclick = function() {
   categoryFunction();
 }
 
-document.getElementById('buttonQ6A1').onclick = function() {
+document.getElementById('buttonQ6A2').onclick = function() {
   catA = catA + 1;
   catB = catB + 1;
   catD = catD + 1;
   catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ6A2').onclick = function() {
-  catB = catB + 1;
-  catD = catD + 1;
-  catG = catG + 1;
-  catJ = catJ + 1;
   categoryFunction();
 }
 
@@ -234,34 +226,34 @@ document.getElementById('buttonQ8A4').onclick = function() {
 }
 
 document.getElementById('buttonQ9A1').onclick = function() {
-  catA = catA + 4;
-  catB = catB + 4;
-  catC = catc + 4;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ9A2').onclick = function() {
-  catD = catD + 4;
-  catE = catE + 4;
-  catF = catF + 4;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ9A3').onclick = function() {
-  catG = catG + 4;
-  catH = catH + 4;
-  catH = catI + 4;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ9A4').onclick = function() {
   catJ = catJ + 4;
   catK = catK + 4;
   catL = catL + 4;
   categoryFunction();
 }
 
-document.getElementById('buttonQ11A1').onclick = function() {
+document.getElementById('buttonQ9A2').onclick = function() {
+  catG = catG + 4;
+  catH = catH + 4;
+  catH = catI + 4;
+  categoryFunction();
+}
+
+document.getElementById('buttonQ9A3').onclick = function() {
+  catD = catD + 4;
+  catE = catE + 4;
+  catF = catF + 4;
+  categoryFunction();
+}
+
+document.getElementById('buttonQ9A4').onclick = function() {
+  catA = catA + 4;
+  catB = catB + 4;
+  catC = catc + 4;
+  categoryFunction();
+}
+
+document.getElementById('buttonQ10A2').onclick = function() {
   catB = catB + 1;
   catC = catC + 1;
   catE = catE + 1;
@@ -273,34 +265,34 @@ document.getElementById('buttonQ11A1').onclick = function() {
   categoryFunction();
 }
 
-document.getElementById('buttonQ11A3').onclick = function() {
+document.getElementById('buttonQ10A3').onclick = function() {
   catC = catC + 1;
   catF = catF + 1;
   categoryFunction();
 }
 
-document.getElementById('buttonQ12A1').onclick = function() {
+document.getElementById('buttonQ11A1').onclick = function() {
   catJ = catJ + 1;
   catK = catK + 1;
   catL = catL + 1;
   categoryFunction();
 }
 
-document.getElementById('buttonQ12A2').onclick = function() {
+document.getElementById('buttonQ11A2').onclick = function() {
   catG = catG + 1;
   catH = catH + 1;
   catI = catI + 1;
   categoryFunction();
 }
 
-document.getElementById('buttonQ12A3').onclick = function() {
+document.getElementById('buttonQ11A3').onclick = function() {
   catD = catD + 1;
   catE = catE + 1;
   catF = catF + 1;
   categoryFunction();
 }
 
-document.getElementById('buttonQ12A4').onclick = function() {
+document.getElementById('buttonQ11A4').onclick = function() {
   catA = catA + 1;
   catB = catB + 1;
   catC = catC + 1;
