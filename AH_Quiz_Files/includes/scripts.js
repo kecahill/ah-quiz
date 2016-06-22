@@ -51,90 +51,55 @@ var catK = 0;
 var catL = 0;
 
 document.getElementById('buttonQ1A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
+  catF = catF + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catI = catI + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ1A2').onclick = function() {
-  catB = catB + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ1A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ1A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
+  catF = catF + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catI = catI + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ2A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
+  catG = catG + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ2A2').onclick = function() {
-  catB = catB + 1;
-  categoryFunction();
-
-}
-
-document.getElementById('buttonQ2A3').onclick = function() {
   catA = catA + 1;
-  catB = catB + 1;
-  categoryFunction();
-}
-document.getElementById('buttonQ2A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
+  catD = catD + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catI = catI + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ3A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ3A2').onclick = function() {
-  catB = catB + 1;
-  categoryFunction();
-
-}
-
-document.getElementById('buttonQ3A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ3A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
   catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ4A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ4A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catI = catI + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
@@ -143,47 +108,35 @@ document.getElementById('buttonQ4A3').onclick = function() {
   catB = catB + 1;
   catD = catD + 1;
   catE = catE + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
   categoryFunction();
 }
+
 
 document.getElementById('buttonQ4A4').onclick = function() {
   catA = catA + 1;
-  catB = catB + 1;
   catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 1;
+  catJ = catJ + 1;
   categoryFunction();
-}
 
+}
 
 document.getElementById('buttonQ5A1').onclick = function() {
   catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 1;
+  catI = catI + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ5A2').onclick = function() {
   catA = catA + 1;
-  catB = catB + 1;
   catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ5A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ5A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 1;
+  catJ = catJ + 1;
   categoryFunction();
 }
 
@@ -196,218 +149,161 @@ document.getElementById('buttonQ6A1').onclick = function() {
 }
 
 document.getElementById('buttonQ6A2').onclick = function() {
-  catA = catA + 1;
   catB = catB + 1;
   catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 1;
+  catJ = catJ + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ6A3').onclick = function() {
   catA = catA + 1;
   catB = catB + 1;
+  catC = catC + 1;
   catD = catD + 1;
   catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ6A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catF = catF + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catI = catI + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ7A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catA = catA + 3;
+  catD = catD + 3;
+  catG = catG + 3;
+  catJ = catJ + 3;
+  catK = catK + 3;
   categoryFunction();
 }
 
 document.getElementById('buttonQ7A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catA = catA + 3;
+  catB = catB + 3;
+  catD = catD + 3;
+  catE = catE + 3;
+  catG = catG + 3;
+  catH = catH + 3;
+  catK = catK + 3;
+  catL = catL + 3;
   categoryFunction();
 }
 
 document.getElementById('buttonQ7A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catB = catB + 3;
+  catC = catC + 3;
+  catE = catE + 3;
+  catF = catF + 3;
+  catH = catH + 3;
+  catI = catI + 3;
+  catL = catL + 3;
   categoryFunction();
 }
 
 document.getElementById('buttonQ7A4').onclick = function() {
-  catA = catA + 1;
+  catC = catC + 3;
+  catF = catF + 3;
+  catI = catI + 3;
+  categoryFunction();
+}
+
+document.getElementById('buttonQ8A1').onclick = function() {
+  catJ = catJ + 1;
+  catK = catK + 1;
+  categoryFunction();
+}
+
+document.getElementById('buttonQ8A3').onclick = function() {
   catB = catB + 1;
-  catD = catD + 1;
+  catC = catC + 1;
   catE = catE + 1;
+  catF = catF + 1;
+  catH = catH + 1;
+  catJ = catJ + 1;
+  catL = catL + 1;
+  categoryFunction();
+}
+
+document.getElementById('buttonQ8A4').onclick = function() {
+  catF = catF + 1;
+  catI = catI + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ9A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catA = catA + 4;
+  catB = catB + 4;
+  catC = catc + 4;
   categoryFunction();
 }
 
 document.getElementById('buttonQ9A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catD = catD + 4;
+  catE = catE + 4;
+  catF = catF + 4;
   categoryFunction();
 }
 
 document.getElementById('buttonQ9A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 4;
+  catH = catH + 4;
+  catH = catI + 4;
   categoryFunction();
 }
 
 document.getElementById('buttonQ9A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ10A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ10A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ10A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ10A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catJ = catJ + 4;
+  catK = catK + 4;
+  catL = catL + 4;
   categoryFunction();
 }
 
 document.getElementById('buttonQ11A1').onclick = function() {
-  catA = catA + 1;
   catB = catB + 1;
-  catD = catD + 1;
+  catC = catC + 1;
   catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ11A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catF = catF + 1;
+  catH = catH + 1;
+  catI = catI + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ11A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ11A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catC = catC + 1;
+  catF = catF + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ12A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catJ = catJ + 1;
+  catK = catK + 1;
+  catL = catL + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ12A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catG = catG + 1;
+  catH = catH + 1;
+  catI = catI + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ12A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
   catD = catD + 1;
   catE = catE + 1;
+  catF = catF + 1;
   categoryFunction();
 }
 
 document.getElementById('buttonQ12A4').onclick = function() {
   catA = catA + 1;
   catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ13A1').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ13A2').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ13A3').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
-  categoryFunction();
-}
-
-document.getElementById('buttonQ13A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catD = catD + 1;
-  catE = catE + 1;
+  catC = catC + 1;
   categoryFunction();
 }
 
@@ -446,9 +342,9 @@ function categoryFunction() {
 
   n = largestIndexCategory;
 
-  var resultsTitle = $('#results h1'),
+  var resultsTitle = $('#results h2'),
     resultsDesc = $('#results .desc');
-  resultsTitle.replaceWith("<h1>" + resultOptions[n].title + "</h1>");
+  resultsTitle.replaceWith("<h2>" + resultOptions[n].title + "</h2>");
   resultsDesc.replaceWith("<p>" + resultOptions[n].desc + "</p>");
 
   console.log("This is n: " + n);
