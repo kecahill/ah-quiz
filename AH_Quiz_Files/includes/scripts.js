@@ -1,41 +1,54 @@
 // Quiz result options in a separate object for flexibility
-var resultOptions = [{
-  title: 'Group 2 - Big dogs, calm, easy-going',
-  desc: '<p>2Chesapeake Bay Retriever, Collie, English Setter, Bearded Collie, Wirehaired Pointer</p><img src="http://i.imgur.com/dipkE0v.jpg"/>'
- 
+var resultTitleOptions = [{
+  title: 'Group 2 - Big dogs, calm, easy-going'
 }, {
-  title: 'Group 2 - Big dogs, some attention/maintenance needed',
-  desc: '<p>2Chesapeake Bay Retriever, Collie, English Setter, Bearded Collie, Wirehaired Pointer</p><img src="http://i.imgur.com/dipkE0v.jpg"/>'
+  title: 'Group 2 - Big dogs, some attention/maintenance needed'
 }, {
-  title: 'Group 3 - Big Dogs, need a lot of attention',
-  desc: '<p>3German Shorthaired Pointer, Vizsla, Alaskan Malamute, Boxer, Akita</p><img src="http://i.imgur.com/WXox0Yv.jpg"/>'
+  title: 'Group 3 - Big Dogs, need a lot of attention'
 }, {
-  title: 'Group 4 - Medium/Large Dogs, need less attention',
-  desc: '<p>4Welsh Corgi, Chow Chow, Skye Terrier, Afghan Hound, Shar-Pei</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 4 - Medium/Large Dogs, need less attention'
 }, {
-  title: 'Group 5 - Medium Large dogs - moderate attention/maintenance',
-  desc: '<p>5Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 5 - Medium Large dogs - moderate attention/maintenance'
 }, {
-  title: 'Group 6 - Medium to Large Dogs that need a lot of attention',
-  desc: '<p>6Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 6 - Medium to Large Dogs that need a lot of attention'
 }, {
-  title: 'Group 7 - Small to Medium dogs less attention',
-  desc: '<p>7Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 7 - Small to Medium dogs less attention'
 }, {
-  title: 'Group 8 - Small to Medium dogs moderate energy/attention',
-  desc: '<p>8Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 8 - Small to Medium dogs moderate energy/attention'
 }, {
-  title: 'Group  9 - Small to Medium dogs energetic/attention',
-  desc: '<p>9Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group  9 - Small to Medium dogs energetic/attention'
 }, {
-  title: 'Group 10 - tiny to small low energy',
-  desc: '<p>10Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 10 - tiny to small low energy'
 }, {
-  title: 'Group 11 - tiny to small medium energy',
-  desc: '<p>11Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 11 - tiny to small medium energy'
 }, {
-  title: 'Group 12 - tiny to small high energy',
-  desc: '<p>12Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  title: 'Group 12 - tiny to small high energy'
+}];
+
+var resultOtherOptions = [{
+  desc: 'Group 1 - Big dogs, calm, easy-going'
+}, {
+  desc: 'Group 2 - Big dogs, some attention/maintenance needed'
+}, {
+  desc: 'Group 3 - Big Dogs, need a lot of attention'
+}, {
+  desc: 'Group 4 - Medium/Large Dogs, need less attention'
+}, {
+  desc: 'Group 5 - Medium Large dogs - moderate attention/maintenance'
+}, {
+  desc: 'Group 6 - Medium to Large Dogs that need a lot of attention'
+}, {
+  desc: 'Group 7 - Small to Medium dogs less attention'
+}, {
+  desc: 'Group 8 - Small to Medium dogs moderate energy/attention'
+}, {
+  desc: 'Group  9 - Small to Medium dogs energetic/attention'
+}, {
+  desc: 'Group 10 - tiny to small low energy'
+}, {
+  desc: 'Group 11 - tiny to small medium energy'
+}, {
+  desc: 'Group 12 - tiny to small high energy'
 }];
 
 var catA = 0;
@@ -345,12 +358,14 @@ function categoryFunction() {
   // resultsDesc.replaceWith("<p>" + resultOptions[n].desc + "</p>");
   
   var resultsTitle = $('#results h2');
-  var resultsDesc = $('#results .desc');
   
- resultsTitle.replaceWith("<h2>" + resultOptions[n].title + "</h2>");
-resultsDesc.replaceWith("<p class='desc'>" + resultOptions[n].desc + "</p>");
-
   console.log("This is n: " + n);
+  
+ resultsTitle.replaceWith("<h2>" + resultTitleOptions[n].title + "</h2>");
+  var resultsDesc = $('#results .desc');
+resultsDesc.replaceWith("<p class='desc'>" + resultOtherOptions[n].desc + "</p>");
+
+  console.log("This is n now: " + n);
 }
 
 $(document).ready(function() {
