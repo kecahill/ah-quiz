@@ -1,40 +1,41 @@
 // Quiz result options in a separate object for flexibility
 var resultOptions = [{
-  title: 'Group 1 -  Big Dogs, calm easy-going',
-  desc: '<p>Bernese Mtn,  Bullmastiff, Tibetan Mastiff, Shar-Pei, Greyhound</p><img src="http://i.imgur.com/tXTjD9k.jpg"/>'
+  title: 'Group 2 - Big dogs, calm, easy-going',
+  desc: '<p>2Chesapeake Bay Retriever, Collie, English Setter, Bearded Collie, Wirehaired Pointer</p><img src="http://i.imgur.com/dipkE0v.jpg"/>'
+ 
 }, {
   title: 'Group 2 - Big dogs, some attention/maintenance needed',
-  desc: '<p>Chesapeake Bay Retriever, Collie, English Setter, Bearded Collie, Wirehaired Pointer</p><img src="http://i.imgur.com/dipkE0v.jpg"/>'
+  desc: '<p>2Chesapeake Bay Retriever, Collie, English Setter, Bearded Collie, Wirehaired Pointer</p><img src="http://i.imgur.com/dipkE0v.jpg"/>'
 }, {
   title: 'Group 3 - Big Dogs, need a lot of attention',
-  desc: '<p>German Shorthaired Pointer, Vizsla, Alaskan Malamute, Boxer, Akita</p><img src="http://i.imgur.com/WXox0Yv.jpg"/>'
+  desc: '<p>3German Shorthaired Pointer, Vizsla, Alaskan Malamute, Boxer, Akita</p><img src="http://i.imgur.com/WXox0Yv.jpg"/>'
 }, {
   title: 'Group 4 - Medium/Large Dogs, need less attention',
-  desc: '<p>Welsh Corgi, Chow Chow, Skye Terrier, Afghan Hound, Shar-Pei</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>4Welsh Corgi, Chow Chow, Skye Terrier, Afghan Hound, Shar-Pei</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 5 - Medium Large dogs - moderate attention/maintenance',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>5Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 6 - Medium to Large Dogs that need a lot of attention',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>6Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 7 - Small to Medium dogs less attention',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>7Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 8 - Small to Medium dogs moderate energy/attention',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>8Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group  9 - Small to Medium dogs energetic/attention',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>9Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 10 - tiny to small low energy',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>10Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 11 - tiny to small medium energy',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>11Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }, {
   title: 'Group 12 - tiny to small high energy',
-  desc: '<p>Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
+  desc: '<p>12Bearded Collie, Collie, Chesapeake Bay Retriever, English Setter, American Water Spaniel</p><img src="http://i.imgur.com/NH5cunw.png"/>'
 }];
 
 var catA = 0;
@@ -235,7 +236,7 @@ document.getElementById('buttonQ9A1').onclick = function() {
 document.getElementById('buttonQ9A2').onclick = function() {
   catG = catG + 4;
   catH = catH + 4;
-  catH = catI + 4;
+  catI = catI + 4;
   categoryFunction();
 }
 
@@ -249,8 +250,11 @@ document.getElementById('buttonQ9A3').onclick = function() {
 document.getElementById('buttonQ9A4').onclick = function() {
   catA = catA + 4;
   catB = catB + 4;
-  catC = catc + 4;
+  catC = catC + 4;
   categoryFunction();
+}
+
+document.getElementById('buttonQ10A1').onclick = function() {
 }
 
 document.getElementById('buttonQ10A2').onclick = function() {
@@ -272,30 +276,30 @@ document.getElementById('buttonQ10A3').onclick = function() {
 }
 
 document.getElementById('buttonQ11A1').onclick = function() {
-  catJ = catJ + 1;
-  catK = catK + 1;
-  catL = catL + 1;
+  catJ = catJ + 2;
+  catK = catK + 2;
+  catL = catL + 2;
   categoryFunction();
 }
 
 document.getElementById('buttonQ11A2').onclick = function() {
-  catG = catG + 1;
-  catH = catH + 1;
-  catI = catI + 1;
+  catG = catG + 2;
+  catH = catH + 2;
+  catI = catI + 2;
   categoryFunction();
 }
 
 document.getElementById('buttonQ11A3').onclick = function() {
-  catD = catD + 1;
-  catE = catE + 1;
-  catF = catF + 1;
+  catD = catD + 2;
+  catE = catE + 2;
+  catF = catF + 2;
   categoryFunction();
 }
 
 document.getElementById('buttonQ11A4').onclick = function() {
-  catA = catA + 1;
-  catB = catB + 1;
-  catC = catC + 1;
+  catA = catA + 2;
+  catB = catB + 2;
+  catC = catC + 2;
   categoryFunction();
 }
 
@@ -334,10 +338,17 @@ function categoryFunction() {
 
   n = largestIndexCategory;
 
-  var resultsTitle = $('#results h2'),
-    resultsDesc = $('#results .desc');
-  resultsTitle.replaceWith("<h2>" + resultOptions[n].title + "</h2>");
-  resultsDesc.replaceWith("<p>" + resultOptions[n].desc + "</p>");
+  // var resultsTitle = $('#results h2'),
+  //   resultsDesc = $('#results .desc');
+  // console.log("This is n: " + n);
+  // resultsTitle.replaceWith("<h2>" + resultOptions[n].title + "</h2>");
+  // resultsDesc.replaceWith("<p>" + resultOptions[n].desc + "</p>");
+  
+  var resultsTitle = $('#results h2');
+  var resultsDesc = $('#results .desc');
+  
+ resultsTitle.replaceWith("<h2>" + resultOptions[n].title + "</h2>");
+resultsDesc.replaceWith("<p class='desc'>" + resultOptions[n].desc + "</p>");
 
   console.log("This is n: " + n);
 }
