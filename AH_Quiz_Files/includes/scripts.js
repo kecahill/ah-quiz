@@ -1,6 +1,6 @@
 // Quiz result options in a separate object for flexibility
 var resultTitleOptions = [{
-  title: 'Group 2 - Big dogs, calm, easy-going'
+  title: 'Group 1 - Big dogs, calm, easy-going'
 }, {
   title: 'Group 2 - Big dogs, some attention/maintenance needed'
 }, {
@@ -26,29 +26,29 @@ var resultTitleOptions = [{
 }];
 
 var resultOtherOptions = [{
-  desc: 'Group 1 - Big dogs, calm, easy-going'
+  desc: 'Bernese Mtn<br/>Bullmastiff<br/>Tibetan Mastiff<br/>Shar-Pei<br/>Greyhound'
 }, {
-  desc: 'Group 2 - Big dogs, some attention/maintenance needed'
+  desc: 'Chesapeake Bay Retriever<br/>Collie<br/>English Setter<br/>Bearded Collie<br/>Wirehaired Pointer'
 }, {
-  desc: 'Group 3 - Big Dogs, need a lot of attention'
+  desc: 'German Shorthaired Pointer<br/>Vizsla<br/>Alaskan Malamute<br/>Boxer<br/>Akita'
 }, {
-  desc: 'Group 4 - Medium/Large Dogs, need less attention'
+  desc: 'Welsh Corgi<br/>Chow Chow<br/>Skye Terrier<br/>Afghan Hound<br/>Shar-Pei'
 }, {
-  desc: 'Group 5 - Medium Large dogs - moderate attention/maintenance'
+  desc: 'Bearded Collie<br/>Collie<br/>Chesapeake Bay Retriever<br/>English Setter<br/>American Water Spaniel'
 }, {
-  desc: 'Group 6 - Medium to Large Dogs that need a lot of attention'
+  desc: 'Australian Cattle Dog<br/>American Foxhound<br/>Airedale Terrier<br/>Border Collie<br/>Boxer'
 }, {
-  desc: 'Group 7 - Small to Medium dogs less attention'
+  desc: 'Skye Terrier<br/>Afghan Hound<br/>Welsh Corgi<br/>Lhasa Apso'
 }, {
-  desc: 'Group 8 - Small to Medium dogs moderate energy/attention'
+  desc: 'West Highland Terrier<br/>Keeshond<br/>Brittany<br/>Cavalier King Charles Spaniel<br/>Minituare Schnauzer'
 }, {
-  desc: 'Group  9 - Small to Medium dogs energetic/attention'
+  desc: 'German Pinscher<br/>Miniature Bull Terrier<br/>Lakeland Terrier<br/>Border Collie<br/>Australian Cattle Dog'
 }, {
-  desc: 'Group 10 - tiny to small low energy'
+  desc: 'Sealyham Terrier<br/>Lhasa Apso'
 }, {
-  desc: 'Group 11 - tiny to small medium energy'
+  desc: 'Affenpinscher<br/>Cairn Terrier<br/>Miniature Schnauzer<br/>Scottish Terrier<br/>Shetland Sheepdog'
 }, {
-  desc: 'Group 12 - tiny to small high energy'
+  desc: 'Jack Russel<br/>Lakeland Terrier<br/>Miniature Pinscher<br/>Parson Russel<br/>Poodle (mini)<br/>Chihuahua'
 }];
 
 var catA = 0;
