@@ -347,6 +347,21 @@ resultsDesc.replaceWith("<p class='desc'>" + resultOtherOptions[n].desc + "</p>"
   console.log("This is n now: " + n);
 }
 
+function resetCategoryFunction() {
+    catA = 0;
+    catB = 0;
+    catC = 0;
+    catD = 0;
+    catE = 0;
+    catF = 0;
+    catG = 0;
+    catH = 0;
+    catI = 0;
+    catJ = 0;
+    catK = 0;
+    catL = 0;
+  }
+
 $(document).ready(function() {
   answers = new Object();
   $('.option').change(function() {
@@ -361,17 +376,28 @@ $(document).ready(function() {
   $questions = $('.questions');
   $questions.hide();
   $($questions.get(currentQuestion)).fadeIn();
+
   $('.answer-text').click(function() {
     $($questions.get(currentQuestion)).fadeOut(function() {
       currentQuestion = currentQuestion + 1;
+      
       if (currentQuestion == totalQuestions) {
         var result = sum_values()
-
+          //do stuff with the result
         alert(result);
       } else {
         $($questions.get(currentQuestion)).fadeIn();
       }
     });
-
   });
+  
+  $('#restartButton').click(function() {
+      
+        currentQuestion = -1;
+        $questions.hide();
+        resetCategoryFunction();
+
+    });
+
+
 });
